@@ -89,7 +89,7 @@
                 var temp; //Holds jQuery objects that are not significant enough to place in priv.dom
                 priv.dom.$header = $("<div class='header'>" + "<div class='title'>" + "    " + priv.settings.title + "</div>" + "</div>").appendTo(container);
                 priv.dom.$tabs = $("<div class='btn-group' data-toggle='buttons-radio'>" + "    <button class='btn btn-large btn-warning active'>Chart</button>" + "    <button class='btn btn-large btn-warning'>Data</button>" + "</div>").prependTo(priv.dom.$header);
-                priv.dom.$about = $("<div style='float:right'>" + "    <button class='btn btn-large btn-danger about'>About</button>" + "</div>").appendTo(priv.dom.$header);
+             //   priv.dom.$about = $("<div style='float:right'>" + "    <button class='btn btn-large btn-danger about'>About</button>" + "</div>").appendTo(priv.dom.$header);
                 priv.dom.$content = $("<div class='content'>" + "</div>").appendTo(container);
                 priv.dom.$chart = $("    <div class='chart' id='tab0'>" + "    </div>").appendTo(priv.dom.$content);
                 priv.dom.$menu = $("        <div class='myMenuTestSub'>" + "            <div></div>" + "        </div>").appendTo(priv.dom.$chart);
